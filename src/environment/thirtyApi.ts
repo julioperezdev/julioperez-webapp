@@ -1,0 +1,1 @@
+export const URL_API_GET_IP_ADDRESS = process.env.REACT_APP_URL_API_GET_IP_ADDRESS;

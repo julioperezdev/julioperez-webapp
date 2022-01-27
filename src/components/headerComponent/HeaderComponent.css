@@ -1,0 +1,74 @@
+.header-component-base{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #1572A1;
+    align-items: center;
+}
+
+.header-component-base img{
+    width: 30px;
+}
+
+.header-component-logo{
+    justify-self: center;
+}
+
+.header-component-links{
+    justify-self: center;
+}
+
+.header-component-links-particular {
+    padding: 10px 10px;
+    text-decoration-line: none;
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(216, 218, 233);
+} 
+
+.header-component-links-particular:hover {
+    text-decoration-line: underline;
+} 
+
+@media only screen and (min-width: 360px) {
+
+.header-component-base img{
+    width: 40px;
+}
+
+.header-component-links-particular {
+    font-size: 14px;
+} 
+}
+@media only screen and (min-width: 480px) {
+
+.header-component-base img{
+    width: 45px;
+}
+
+.header-component-links-particular {
+    padding: 10px 15px;
+    font-size: 16px;
+} 
+}
+@media only screen and (min-width: 768px) {
+    .header-component-base img{
+        width: 50px;
+    }
+    
+    .header-component-links-particular {
+        padding: 10px 20px;
+        font-size: 18px;
+    } 
+}
+@media only screen and (min-width: 1024px) {
+    .header-component-links-particular {
+        padding: 10px 30px;
+    } 
+}
+@media only screen and (min-width: 1200px) {   
+    .header-component-links-particular {
+        padding: 10px 40px;
+    } 
+}

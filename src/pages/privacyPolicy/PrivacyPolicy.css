@@ -1,0 +1,33 @@
+.privacyPolicy-base{
+    display: grid;
+    text-align: justify;
+    justify-content: center;
+}
+
+.privacyPolicy-base h1{
+    text-align: center;
+}
+
+.privacyPolicy-text{
+    font-size: 14px;
+    width: 900px;
+    background-color: rgb(240, 241, 255);
+    border: 2px solid rgb(240, 240, 240);
+    box-shadow: rgb(227, 224, 255) 10px 10px 50px;
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 30px;
+    
+}
+
+@media only screen and (min-width: 360px) {    
+}
+@media only screen and (min-width: 480px) {
+} 
+
+@media only screen and (min-width: 768px) { 
+}
+@media only screen and (min-width: 1024px) { 
+}
+@media only screen and (min-width: 1200px) {   
+}

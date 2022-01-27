@@ -1,0 +1,38 @@
+.social-media-component-base{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.social-media-component-base img{
+    width: 25px;
+    transition: 0.5s;
+    padding: 5px;
+ 
+}
+
+.social-media-component-base img:hover{
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: rgb(214, 214, 214) 0px 0px 5px;
+}
+
+
+@media only screen and (min-width: 360px) { 
+    .social-media-component-base{
+        width: 250px;
+    }   
+}
+
+@media only screen and (min-width: 1024px) { 
+    .social-media-component-base{
+        width: 300px;
+    }  
+}
+@media only screen and (min-width: 1200px) { 
+    .social-media-component-base{
+        width: 350px;
+    }  
+}

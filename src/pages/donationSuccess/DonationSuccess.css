@@ -1,0 +1,30 @@
+.donation-success-base{
+ text-align: center;
+}
+
+.donation-success-base img{
+    width: 200px;
+    margin: 10px auto;
+}
+
+@media only screen and (min-width: 360px) {  
+    .donation-success-base img{
+        width: 250px;
+    }  
+}
+@media only screen and (min-width: 480px) {
+    .donation-success-base img{
+        width: 300px;
+    }
+} 
+
+@media only screen and (min-width: 768px) { 
+    .donation-success-base img{
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 1024px) { 
+    .donation-success-base img{
+        width: 500px;
+    }
+}

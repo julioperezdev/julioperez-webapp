@@ -1,0 +1,25 @@
+.footer-base{
+    text-align: center;
+}
+
+.footer-terms-and-condition{
+    text-align: center;
+}
+
+.footer-base a{
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(183, 185, 190);
+}
+
+@media only screen and (min-width: 360px) {    
+}
+@media only screen and (min-width: 480px) {
+} 
+
+@media only screen and (min-width: 768px) { 
+}
+@media only screen and (min-width: 1024px) { 
+}
+@media only screen and (min-width: 1200px) {   
+}

@@ -1,0 +1,42 @@
+.not-found-base{
+    text-align: center;
+}
+
+.not-found-base img{
+    width: 200px;
+    margin: 20px auto;
+}
+
+
+.not-found-base h1{
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 360px) {    
+    .not-found-base img{
+        width: 300px;
+    }
+    
+    .not-found-base h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .not-found-base img{
+        width: 350px;
+    }
+    
+    .not-found-base h1{
+        font-size: 30px;
+    }
+} 
+
+@media only screen and (min-width: 768px) { 
+    .not-found-base img{
+        width: 400px;
+    }
+    
+    .not-found-base h1{
+        font-size: 30px;
+    }
+}

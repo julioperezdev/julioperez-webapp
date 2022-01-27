@@ -1,0 +1,84 @@
+
+section{
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background-color: #3586ff00;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 20;
+}
+
+section .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px ;
+    background-image: url(../../../resources/wave-mid.png);
+    background-size: 1000px 100px;
+}
+
+section .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 4;
+    opacity: 0.8;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+section .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 3;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+section .wave.wave3{
+    animation: animate3 10s linear infinite;
+    z-index: 2;
+    opacity: 0.25;
+    animation-delay: -8s;
+    bottom: 8px;
+}
+
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate3{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+
+@media only screen and (min-width: 360px) {    
+}
+@media only screen and (min-width: 480px) {
+} 
+
+@media only screen and (min-width: 768px) { 
+}
+@media only screen and (min-width: 1024px) { 
+}
+@media only screen and (min-width: 1200px) {   
+}
